@@ -1,0 +1,16 @@
+{
+    "name": "devcake-deventer/laravel-loki-logging",
+    "description": "Logging to Loki for Laravel",
+    "type": "library",
+    "license": "To be determined",
+    "authors": [
+        {
+            "name": "Sven Mol",
+            "email": "s.mol@devcake.nl"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    }
+}
