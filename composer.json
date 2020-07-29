@@ -1,8 +1,8 @@
 {
     "name": "devcake-deventer/laravel-loki-logging",
+    "version": "0.0.1",
     "description": "Logging to Loki for Laravel",
     "type": "library",
-    "license": "To be determined",
     "authors": [
         {
             "name": "Sven Mol",
@@ -10,7 +10,22 @@
         }
     ],
     "require": {
+        "php": "^7.0",
+        "ext-json": "*",
+        "illuminate/support": "^7.0.0",
+        "illuminate/console": "^7.0.0",
+        "monolog/monolog": "^2.0.0"
     },
-    "require-dev": {
+    "autoload": {
+        "psr-4": {
+            "Devcake\\LaravelLokiLogging\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devcake\\LaravelLokiLogging\\L3ServiceProvider"
+            ]
+        }
     }
 }
