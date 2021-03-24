@@ -26,7 +26,7 @@ class L3Persister extends Command
             config('l3.loki.username'),
             config('l3.loki.password')
         );
-        $path = config('l3.loki.server') . "/loki/v1/push";
+        $path = config('l3.loki.server') . "/loki/api/v1/push";
         foreach ($messages as $message) {
             if ($message === "") continue;
             $data = json_decode($message);
