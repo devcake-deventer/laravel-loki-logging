@@ -1,6 +1,6 @@
 {
     "name": "rdemorais/laravel-loki-logging",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Logging to Loki for Laravel",
     "type": "library",
     "authors": [
